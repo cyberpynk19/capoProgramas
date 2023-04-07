@@ -52,7 +52,7 @@ def grama(update, context):
     update.message.reply_text(f'Cortar grama: {cortador}')
 
 def main():
-    token1 = "6109792618:AAESMhq22CTD6yq113VZvMC2OgJ7V1aMrAM"
+    token1 = "TOKEN SECRETO"
     updater = tl.Updater(token1)
     dp = updater.dispatcher
 
